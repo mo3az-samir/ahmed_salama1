@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>د.احمد سلامة الصفطي</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: "Tajawal", sans-serif;
+        }
+        .header-bg {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .navbar-nav .nav-link {
+            margin: 0 10px;
+            transition: color 0.3s;
+            padding: 10px; /* إضافة padding */
+            border-radius: 5px; /* زوايا دائرية */
+        }
+        .navbar-nav .nav-link:hover {
+            background-color: #007BFF; /* لون الخلفية عند التمرير */
+        }
+        .welcome-section {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #ffffff;
+            margin-bottom: 40px;
+        }
+        .courses-section {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #e9e9e9f1; /* لون خلفية فاتح */
+        }
+        .video-section {
+            margin-top: 40px;
+            padding: 20px;
+            border: 1px solid #007BFF; /* إطار خارجي */
+            border-radius: 5px;
+            background-color: #ffffff; /* لون خلفية */
+        }
+        .video-section h4 {
+            text-align: center; /* جعل العنوان في المنتصف */
+        }
+        .card {
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .copyright-section {
+            text-align: center;
+            background-color: #343a40;
+            color: white;
+            padding: 15px;
+            width: 100%;
+            bottom: 0;
+        }
+        .contact-section {
+            background-color: #e9e9e9; /* لون خلفية فاتح */
+            padding: 30px;
+            border-radius: 5px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <div class="header-bg text-center">
+            <h2>قال رسول الله ﷺ</h2>
+            <p>"إن أكرمكم عند الله أتقاكم."</p> 
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="/images/moaz.ico">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="تبديل التنقل">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link" href="#sections">الأقسام</a>
+                    <a class="nav-item nav-link" href="#latest-videos">أحدث الفيديوهات</a>
+                    <a class="nav-item nav-link" href="#contact">تواصل معنا</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="welcome-section text-center">
+            <h3>مرحبًا بكم</h3>
+            <p>في الموقع الرسمي لفضيلة</p>
+            <p><span style="font-size: 1.5em; color: #2950fa;">الدكتور احمد سلامة الصفطي</span></p>
+            <p style="font-size: 0.8em;">امام وخطيب بوزارة الاوقاف ومن علماء الازهر الشريف</p>
+        </div>
+
+        <div id="sections" class="courses-section mt-4 courses-container">
+            <h4 class="text-center">الأقسام</h4>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="/images/ramadhan_moslem_fasting_islam_kabah_icon_183484.ico"><!-- أيقونة الفقه -->
+                            <h5 class="card-title">فقه</h5>
+                            <p class="card-text">"من يُرد الله به خيرًا يُفقهه في الدين."</p>
+                            <a href="fiqh.html" class="btn btn-primary" target="_blank">ابدأ الآن</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="/images/8.ico"> <!-- أيقونة العقيدة -->
+                            <h5 class="card-title">عقيدة</h5>
+                            <p class="card-text">قال رسول الله ﷺ: "أفضل الإيمان أن تعلم أن الله معك حيثما كنت."</p>
+                            <a href="aqeedah.html" class="btn btn-primary" target="_blank">ابدأ الآن</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="/images/7.ico"> <!-- أيقونة التوحيد -->
+                            <h5 class="card-title">توحيد</h5>
+                            <p class="card-text">لا إله إلا الله، محمدٌ رسول الله</p>
+                            <a href="tawheed.html" class="btn btn-primary" target="_blank">ابدأ الآن</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-4">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="/images/muhammad.png"> <!-- أيقونة السيرة -->
+                            <h5 class="card-title">سيرة</h5>
+                            <p class="card-text">قال رسول الله ﷺ: "إنما بعثت لأتمم مكارم الأخلاق."</p>
+                            <a href="seerah.html" class="btn btn-primary" target="_blank">ابدأ الآن</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-4">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="/images/2.ico"><!-- أيقونة الأحاديث -->
+                            <h5 class="card-title">أحاديث نبوية</h5>
+                            <p class="card-text">تعلم الأحاديث النبوية وفهمها.</p>
+                            <a href="hadiths.html" class="btn btn-primary" target="_blank">ابدأ الآن</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="latest-videos" class="video-section mt-4">
+            <h4 class="text-center">أحدث الفيديوهات</h4>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">فيديو تعليمي 1</h5>
+                            <p class="card-text">شرح أساسيات HTML.</p>
+                            <a href="#" class="btn btn-primary">شاهد الآن</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">فيديو تعليمي 2</h5>
+                            <p class="card-text">مقدمة في CSS.</p>
+                            <a href="#" class="btn btn-primary">شاهد الآن</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">فيديو تعليمي 3</h5>
+                            <p class="card-text">تطبيقات JavaScript في الويب.</p>
+                            <a href="#" class="btn btn-primary">شاهد الآن</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact" class="contact-section mt-4">
+            <h4 class="text-center">تواصل معنا</h4>
+            <p class="text-center">للاستفسارات والاقتراحات عن طريق </p>
+            <p class="text-center">Email: <a href="mailto:moazsamir61@gmail.com">moazsamir61@gmail.com</a></p>
+            <div class="social-icons text-center">
+                <a href="#" style="margin: 0 7px;"><i class="fab fa-whatsapp"></i></a>
+                <a href="#" style="margin: 0 7px;"><i class="fab fa-facebook"></i></a>
+                <a href="#" style="margin: 0 7px;"><i class="fab fa-telegram"></i></a>
+            </div>
+        </div>
+
+        <div class="copyright-section">
+            <p>حقوق الطبع والنشر © 2025 جميع الحقوق محفوظة.</p>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
